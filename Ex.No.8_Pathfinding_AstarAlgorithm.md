@@ -1,6 +1,6 @@
 # Ex.No: 8  Implementation of Path finding using A* algorithm
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 15-05-2026                                                                          
+### REGISTER NUMBER : 212223040054
 ### AIM: 
 To write a program to create graph using waypoints and use A* algorithm to find path between source and destination.
 ### Algorithm:
@@ -16,8 +16,9 @@ To write a program to create graph using waypoints and use A* algorithm to find 
 8. Create a Game Object for Player ( choose capsule or any others) and attach the script to move player from start to end waypoints
 ```  
 ### Program:
-```
+
 **#1.Waypoint.cs**
+```c#
 using UnityEngine;
 using System.Collections.Generic;
 
@@ -34,7 +35,9 @@ public class Waypoint : MonoBehaviour {
         }
     }
 }
+```
 **#2. WaypointGraph.cs**
+```c#
 using UnityEngine;
 
 public class WaypointGraph : MonoBehaviour {
@@ -44,6 +47,8 @@ public class WaypointGraph : MonoBehaviour {
         allWaypoints = FindObjectsOfType<Waypoint>();
     }
 }
+```
+```c#
 **#3.Pathfinding.cs**
 using System.Collections.Generic;
 using UnityEngine;
@@ -103,8 +108,9 @@ public class Pathfinding : MonoBehaviour {
         return path;
     }
 }
-
+```
 **#4.AICharacter.cs**
+```c#
 using UnityEngine;
 using System.Collections.Generic;
 
@@ -131,6 +137,7 @@ public class AICharacter : MonoBehaviour {
         }
     }
 }
+```
 Check the following
 1. Waypoints placed in scene
 2. Neighbors set manually via Inspector
@@ -139,6 +146,7 @@ Check the following
 ### Output:
 
 
+<img width="1919" height="974" alt="image" src="https://github.com/user-attachments/assets/6bf73297-1ec4-44a4-af52-c02a73e3cb9c" />
 
 
 
