@@ -79,14 +79,10 @@ For smooth movement(optional)  -> use
 float movement = Mathf.PingPong(Time.time * moveSpeed, moveDistance) - moveDistance / 2;
 transform.position = startPos + new Vector3(movement, 0, 0);
 ### Output:
-<img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/e06b99e6-ecaf-4030-8ac8-4f2f56b7a35e" />
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f30d0010-c50b-4cee-8c54-ad8d5e5138bd" />
 
+<img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/a09ee2ca-88b7-4cde-8555-933061678619" />
 
-
-
-
-
+<img width="1919" height="990" alt="image" src="https://github.com/user-attachments/assets/666f73dc-3399-497a-8cb4-96e84968f3a5" />
 
 
 
