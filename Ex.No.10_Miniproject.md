@@ -1,4 +1,4 @@
-# Ex.No: 10  Implementation of Flappy bird game 2D
+# Ex.No: 10  Implementation of 2D Platformer Microgame
 ### Name : HAMZA FAROOQUE                                                                     
 ### Reg NO : 212223040054
 ### AIM: 
@@ -306,9 +306,9 @@ public class Spawner : MonoBehaviour
 }
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/11ed6b27-8603-4d05-866d-e182abc50001)
-![image](https://github.com/user-attachments/assets/bdcddd97-54a2-473f-832a-0e8456b6a0f7)
-![image](https://github.com/user-attachments/assets/383791ab-a488-4f68-b3a0-69c64875c1c7)
+<img width="1893" height="983" alt="image" src="https://github.com/user-attachments/assets/a7231d5d-d3ca-4f39-b3b4-7bb51f7ff9e4" />
+
+<img width="1045" height="593" alt="image" src="https://github.com/user-attachments/assets/e38d9f11-c1d5-4afd-8842-84e5642c9a22" />
 
 
 
